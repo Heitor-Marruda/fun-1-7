@@ -1,0 +1,275 @@
+1- programa
+
+{
+
+	
+
+	funcao inicio()
+
+	{
+
+		obrigadoAmigo("Jefferson")
+
+		obrigadoAmigo(" Neymar")
+
+	}
+
+
+
+	funcao obrigadoAmigo(cadeia  nome) {
+
+
+
+		escreva("obrigado amigo ", nome," vc e um amigo \n")
+
+		
+
+		}
+
+}
+
+2-programa
+
+{
+
+	
+
+	funcao inicio()
+
+	{
+
+		obrigadoAmigo()
+
+	}
+
+
+
+	funcao obrigadoAmigo(){
+
+		escreva("obrigado amigo vc e um amigo")
+
+		}
+
+}
+
+3-programa
+
+{
+
+	
+
+	funcao inicio()
+
+	{
+
+		bike(0)
+
+		
+
+	}
+
+
+
+	funcao bike(inteiro km){
+
+	escreva(" quantos km serao rodados")
+
+	leia(km)
+
+
+
+	se(km<50)
+
+	escreva(" gastara menos de 1 litro ")
+
+
+
+     senao {
+
+	escreva("serao gastos ",km/50," de gasolina")
+
+     }
+
+	}
+
+}
+
+4-programa
+
+{
+
+	
+
+	funcao inicio()
+
+	{
+
+		verificaLatido("Bob",20.0)
+
+		verificaLatido ("Laika",17.1)
+
+		verificaLatido ("Chica",1.1)
+
+	}
+
+
+
+	funcao verificaLatido(cadeia nome, real peso){
+
+		
+
+		
+
+		
+
+		}
+
+	
+
+}
+
+5-programa
+
+{
+
+	
+
+ funcao inicio()
+
+ {
+
+
+
+	
+
+ inteiro operador 
+
+
+
+ escreva ("Escolha os o operador que deseja. (0 = +, 1 = - , 2 = /, 3 = *): ")
+
+ leia (operador)
+
+	
+
+      escolha(operador){
+
+       
+
+  
+
+   caso 0: soma(0,0)
+
+   pare
+
+   caso 1: subtracao(0,0)
+
+   pare
+
+   caso 2: divisao(0,0)
+
+   pare
+
+   caso 3: multiplicacao(0,0)
+
+   pare
+
+   
+
+  }
+
+  
+
+ }
+
+
+
+ funcao soma(inteiro x, inteiro y){
+
+ escreva("escolha o primeiro numero a ser somado")
+
+ leia(x)
+
+ escreva("escolha o segundo")
+
+ leia(y)
+
+ escreva(x+y) 
+
+  
+
+ }
+
+
+
+ funcao subtracao(inteiro x, inteiro y){
+
+ escreva("escolha o primeiro numero a ser subtraido")
+
+ leia(x)
+
+ escreva("escolha o segundo")
+
+ leia(y)
+
+ escreva(x-y)  
+
+	
+
+  
+
+ }
+
+
+
+ funcao divisao(inteiro x, inteiro y){
+
+  
+
+ escreva("escolha o primeiro numero a ser dividido")
+
+ leia(x)
+
+ escreva("escolha o segundo")
+
+ leia(y)
+
+ escreva(x/y)
+
+  
+
+ }
+
+
+
+ funcao multiplicacao (inteiro x, inteiro y){
+
+  
+
+ escreva("escolha o primeiro numero a ser multiplicado")
+
+ leia(x)
+
+ escreva("escolha o segundo")
+
+ leia(y)
+
+ escreva(x*y)  
+
+  
+
+ }
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+}
